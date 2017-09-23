@@ -1,0 +1,62 @@
+/* Override bootstrap at navbar-btn*/
+.navbar-btn {
+  /* Adding margin-right */
+  margin-right: 8px;
+}
+
+/*Override bootstrap at col-md-6*/
+.col-md-6 p {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/*Override bootstrap at btn-danger*/
+.btn-danger {
+  background-color: #F95F62;
+  border: none;
+}
+
+/*Override bootstrap at navbar-brand*/
+.navbar-brand {
+  color: #713D3D;
+  font-family: 'Nunito', sans-serif;
+  font-weight: bold;
+}
+
+/* Override img-responsive of bootstrap */
+.img-responsive {
+  margin: auto;
+  width: 40%;
+}
+
+/* Override body's font-style */
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* Override whitespace between navbar and jumbotron*/
+.navbar, .jumbotron {
+  margin-bottom: 0;
+}
+
+/* Override container of container */
+.container {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/* Override container of container */
+.row {
+  margin-bottom: 30px;
+}
+
+/* CSS for navbar-sim background-color */
+.navbar-sim {
+  background-color: #fff;
+  border-bottom: solid 1px #713D3D;
+}
+
+/* CSS for service content */
+.service-sim {
+  font-size: 2em;
+}
